@@ -20,6 +20,7 @@ const PageList = (argument = "") => {
                         <h2>${article.released}</h2>
                         <a href = "#pagedetail/${article.id}">${article.id}</a>
                       </div>
+                      
                     `;
               });
               document.querySelector(".page-list .articles").innerHTML = article;
